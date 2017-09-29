@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div id="root">
+      <router-view v-on:login-success="setUsername"></router-view>
+      <!-- <login-component v-if="!authenticated" v-on:login-success="setUsername"></login-component> -->
+      <!-- <router-view v-else></router-view> -->
+      <!-- <success-component v-bind:username="username"></success-component> -->
+    </div>
+    <script src="output.js"></script>
+  </body>
+</html>
